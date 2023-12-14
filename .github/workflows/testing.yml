@@ -10,7 +10,7 @@ on:
 jobs:
   call-workflow-passing-data:
 #   uses: ./.github/workflows/projectrepo..yml
-    uses: CD-PIPELINE/.github/workflows/maven.yml@main
+    uses: ArunKumarReddy407/CD-PIPELINE/.github/workflows/maven.yml@main
   publish-job:
     runs-on: ubuntu-latest
     steps:
