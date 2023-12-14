@@ -9,7 +9,8 @@ on:
   workflow_dispatch:
 jobs:
   call-workflow-passing-data:
-   uses: ./.github/workflows/projectrepo..yml
+#   uses: ./.github/workflows/projectrepo..yml
+    uses: CD-PIPELINE/.github/workflows/maven.yml@main
   publish-job:
     runs-on: ubuntu-latest
     steps:
